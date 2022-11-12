@@ -12,12 +12,12 @@ user-guide:
   - java-sdk
 developer-guide:
   - get-started
-  - frontend:
-    - table-sharding
-    - distributed-querying
-  - datanode:
-    - storage-engine
-    - query-engine
-    - data-persistence-indexing
-    - wal
-  - python-coprocessor
+  # - frontend:
+  #   - table-sharding
+  #   - distributed-querying
+  # - datanode:
+  #   - storage-engine
+  #   - query-engine
+  #   - data-persistence-indexing
+  #   - wal
+  # - python-coprocessor
