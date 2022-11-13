@@ -1,6 +1,6 @@
 # Data Persistence and Indexing
 
-Similar to all LSMT-like storage engines, data in MemTables is persisted to durable storage like the local disk file system or object storage service. GreptimeDB adopts [Apache Parquet][1] as its persistent file format.
+Similar to all LSMT-like storage engines, data in MemTables is persisted to durable storage, such as, the local disk file system or object storage service. GreptimeDB adopts [Apache Parquet][1] as its persistent file format.
 
 ## SST File Format
 
