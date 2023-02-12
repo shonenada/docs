@@ -23,8 +23,8 @@ replicas is writable and can serve write requests, while any replica can serve r
 - A `datanode` stores and serves `region` to frontends. One `datanode` can serve multiple `regions`
 and one `region` can be served by multiple `datanodes`.
 - The `meta` server stores the metadata of the cluster, such as tables, `datanodes`, `regions` of each
-table, etc. It also coordinates frontends and `datanodes`.
-- Each `datanode` or frontend has a remote catalog implementation, which fetches the metadata from
+table, etc. It also coordinates `frontends` and `datanodes`.
+- Each `datanode` or `frontend` has a remote catalog implementation, which fetches the metadata from
 meta, tells which `region` of a `table` is served by which `datanode`.
 - A `frontend` is a stateless service that serves requests from client. It acts as a proxy to
 forward read and write requests to corresponding `datanode`, according to the mapping from catalog.
