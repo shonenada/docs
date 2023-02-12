@@ -40,8 +40,8 @@ includes the remaining rows of "a >= 20".
 
 ## Region
 
-The data within a table is logically split after creating partitions. You may ask the question "
-how is the data, which is physically distributed, stored in GreptimeDB? The answer is in "Region".
+The data within a table is logically split after creating partitions. You may ask the question
+"How is the data, which is physically distributed, stored in GreptimeDB?" The answer is in "Region".
 "Region" is a group of a table's data stored together inside a Datanode instance physically. Our
 "auto-admin" will move regions among Datanodes automatically, according to the states of Datanodes.
 Also, "auto-admin" can split or merge regions according to their data volume or access pattern.
